@@ -1,0 +1,55 @@
+# Node.js dependencies
+/node_modules/
+/sms/node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+logs/
+*.log
+
+# Environment variables
+.env
+sms/.env
+.env.*
+sms/.env.*
+
+# OS and editor files
+.DS_Store
+sms/.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+*.swo
+*.bak
+*~
+.AppleDouble
+.LSOverride
+
+# Build/runtime artifacts
+dist/
+build/
+coverage/
+
+# Local uploads and generated data
+/uploads/
+/sms/uploads/
+
+# Temporary files
+*.tmp
+*.temp
+*.pid
+*.seed
+*.pid.lock
+
+# Ignore database files if present
+*.sqlite
+*.sqlite3
+*.db
+
+# Ignore secrets and local configuration
+secret*
+credentials*
