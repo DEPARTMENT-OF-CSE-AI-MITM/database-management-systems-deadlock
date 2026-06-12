@@ -17,6 +17,9 @@ sms/.env
 .env.*
 sms/.env.*
 
+venv/
+.venv/
+
 # OS and editor files
 .DS_Store
 sms/.DS_Store
